@@ -14,20 +14,31 @@
  * @package WordPress
  */
 
+
 define( 'WP_MEMORY_LIMIT', '64M' );
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'marmoles_wp420');
+//define('DB_NAME', 'marmoles_wp420');
+//
+///** MySQL database username */
+//define('DB_USER', 'root');
+//
+///** MySQL database password */
+//define('DB_PASSWORD', 'admin');
+//
+///** MySQL hostname */
+//define('DB_HOST', 'mysql.wordpress');
 
-/** MySQL database username */
-define('DB_USER', 'root');
+/** docker-compose envs */
 
-/** MySQL database password */
-define('DB_PASSWORD', 'admin');
+$dbvalues = array('DB_HOST', 'DB_NAME', 'DB_USER', 'DB_PASSWORD');
+/** -------------------------------------------------------------*/
+foreach ($dbvalues as $dbvalue) {
+    define($dbvalue, getenv($dbvalue));
+}
 
-/** MySQL hostname */
-define('DB_HOST', 'mysql.wordpress');
+
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

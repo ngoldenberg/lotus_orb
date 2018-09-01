@@ -3,7 +3,26 @@ Marmoles Travertino
 
 ## Docker compose deploy
 
+#### Run
+```bash
+docker-compose -p cr up -d
+```
 
+#### Stop
+```bash
+docker-compose -p cr stop
+```
+
+#### Remove
+```bash
+docker-compose -p cr rm
+```
+
+#### Stop & remove
+```bash
+docker-compose -p cr stop && \
+    docker-compose -p cr rm -y
+```
 
 ### Manual docker setup
 
@@ -36,3 +55,19 @@ docker run --name mysql -d -p 8081:3306 \
     --net wordpress \
     mysql:5.6
 ```
+
+## Notes
+
+#### Migrate site domain
+Use [this](https://interconnectit.com/products/search-and-replace-for-wordpress-databases/) tool.
+
+#### Thumbnails not displayed
+**Error**: `wordpress 4.3 timthumb.php? permission denied`.
+
+**Fix**: 
+_Run inside app container_ 
+```bash
+chown -R www-data:www-data ./
+chmod -R 755 ./
+```
+
