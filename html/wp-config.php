@@ -21,13 +21,13 @@ define( 'WP_MEMORY_LIMIT', '64M' );
 define('DB_NAME', 'marmoles_wp420');
 
 /** MySQL database username */
-define('DB_USER', 'marmoles_wp420');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'h[Jz3P(0S7');
+define('DB_PASSWORD', 'admin');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'mysql.wordpress');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
