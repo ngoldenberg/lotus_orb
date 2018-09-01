@@ -1,0 +1,1723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FIAT LUX 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-10 19:24-0300\n"
+"PO-Revision-Date: 2011-08-10 19:24-0300\n"
+"Last-Translator: Meydjer Luzzoli <meydjer@meydjer.com>\n"
+"Language-Team: Meydjer Luzzoli <meydjer@meydjer.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: ./\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:8
+msgid "404 - Not Found"
+msgstr ""
+
+#: ../404.php:10
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../404.php:14
+msgid "Please try again, re-check your URL or use the menu or search box to find what you were looking for."
+msgstr ""
+
+#: ../archive.php:20
+#, php-format
+msgid "All posts in \"%s\""
+msgstr ""
+
+#: ../archive.php:25
+#, php-format
+msgid "All posts tagged \"%s\""
+msgstr ""
+
+#: ../archive.php:30
+#: ../archive.php:35
+#: ../archive.php:40
+msgid "Archive for"
+msgstr ""
+
+#: ../archive.php:45
+msgid "All posts by"
+msgstr ""
+
+#: ../archive.php:50
+msgid "Blog Archives"
+msgstr ""
+
+#: ../comments.php:17
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: ../comments.php:43
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Trackback"
+msgstr ""
+
+#: ../comments.php:50
+msgid "Pingback"
+msgstr ""
+
+#: ../comments.php:51
+msgid "on"
+msgstr ""
+
+#: ../comments.php:90
+msgid "Leave a Comment"
+msgstr ""
+
+#: ../comments.php:90
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:93
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: ../comments.php:98
+msgid "Click here to cancel reply."
+msgstr ""
+
+#: ../comments.php:102
+#, php-format
+msgid "Logged in as %1$s. %2$sLog out %3$s"
+msgstr ""
+
+#: ../comments.php:102
+msgid "Log out of this account"
+msgstr ""
+
+#: ../comments.php:107
+msgid "Name"
+msgstr ""
+
+#: ../comments.php:109
+msgid "Email"
+msgstr ""
+
+#: ../comments.php:111
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:127
+msgid "Submit"
+msgstr ""
+
+#: ../comments.php:134
+msgid "&lt; Older Comments"
+msgstr ""
+
+#: ../comments.php:135
+msgid "Newer Comments &gt;"
+msgstr ""
+
+#: ../footer.php:31
+msgid "Footer - One"
+msgstr ""
+
+#: ../footer.php:40
+msgid "Footer - Two"
+msgstr ""
+
+#: ../footer.php:49
+msgid "Footer - Three"
+msgstr ""
+
+#: ../footer.php:58
+msgid "Footer - Four"
+msgstr ""
+
+#: ../header.php:106
+msgid "Home"
+msgstr ""
+
+#: ../searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: ../sidebar.php:11
+msgid "Category - "
+msgstr ""
+
+#: ../sidebar.php:14
+msgid "For All Categories"
+msgstr ""
+
+#: ../sidebar.php:24
+msgid "Page - "
+msgstr ""
+
+#: ../sidebar.php:27
+msgid "For All Pages"
+msgstr ""
+
+#: ../sidebar.php:33
+msgid "General"
+msgstr ""
+
+#: ../template-home_slider.php:269
+msgid "Loading..."
+msgstr ""
+
+#: ../admin/options-framework.php:167
+#: ../admin/options-framework.php:226
+#: ../admin/options-framework.php:234
+#: ../admin/options-framework.php:378
+msgid "Theme Options"
+msgstr ""
+
+#: ../admin/options-framework.php:236
+#: ../admin/options-framework.php:252
+msgid "Save Options"
+msgstr ""
+
+#: ../admin/options-framework.php:253
+msgid "Restore Defaults"
+msgstr ""
+
+#: ../admin/options-framework.php:253
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: ../admin/options-framework.php:283
+msgid "Default options restored."
+msgstr ""
+
+#: ../admin/options-framework.php:330
+msgid "Options saved."
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:26
+msgid "Options Framework Internal Container"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:127
+msgid "Upload"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:150
+msgid "View File"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:287
+msgid "Gallery"
+msgstr ""
+
+#: ../admin/options-medialibrary-uploader.php:287
+msgid "Previously Uploaded"
+msgstr ""
+
+#: ../admin/options.php:73
+msgid "Logo and Icons"
+msgstr ""
+
+#: ../admin/options.php:76
+msgid "Logo - Text or Image?"
+msgstr ""
+
+#: ../admin/options.php:77
+#: ../admin/options.php:252
+msgid "Select between Image or Text."
+msgstr ""
+
+#: ../admin/options.php:82
+msgid "Image"
+msgstr ""
+
+#: ../admin/options.php:82
+msgid "Text"
+msgstr ""
+
+#: ../admin/options.php:84
+msgid "Image Logo"
+msgstr ""
+
+#: ../admin/options.php:85
+msgid "Upload here your own logo image. Default height: 82px;"
+msgstr ""
+
+#: ../admin/options.php:89
+msgid "Text Logo"
+msgstr ""
+
+#: ../admin/options.php:90
+msgid "WARNING: "
+msgstr ""
+
+#: ../admin/options.php:90
+msgid "If you fill this field, your image logo will be overwritten."
+msgstr ""
+
+#: ../admin/options.php:94
+msgid "Text Logo Styles"
+msgstr ""
+
+#: ../admin/options.php:99
+msgid "Favorites Icon"
+msgstr ""
+
+#: ../admin/options.php:100
+msgid "Icon that will appear in the browser bookmarks. (.ICO format)"
+msgstr ""
+
+#: ../admin/options.php:104
+msgid "Mobile Favorites Icon"
+msgstr ""
+
+#: ../admin/options.php:105
+msgid "Icon used by iOS (iPhone, iPod and iPad) and Android (v2.1+). (.PNG format, with recommended size 129x129 pixels)"
+msgstr ""
+
+#: ../admin/options.php:113
+msgid "Footer"
+msgstr ""
+
+#: ../admin/options.php:116
+msgid "Footer Columns"
+msgstr ""
+
+#: ../admin/options.php:117
+msgid "How much columns do you need?"
+msgstr ""
+
+#: ../admin/options.php:130
+msgid "Copyright Text"
+msgstr ""
+
+#: ../admin/options.php:131
+msgid "Tip: "
+msgstr ""
+
+#: ../admin/options.php:131
+msgid "Use \"&amp;copy;\" (without quotes) to generate the &copy; symbol. Leave it blank if you don't want any copyright message."
+msgstr ""
+
+#: ../admin/options.php:140
+msgid "Sidebar"
+msgstr ""
+
+#: ../admin/options.php:143
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../admin/options.php:144
+msgid "Left or right sidebar."
+msgstr ""
+
+#: ../admin/options.php:154
+msgid "Widget Area in Each Category?"
+msgstr ""
+
+#: ../admin/options.php:155
+msgid "Check if you want a widget area in each category"
+msgstr ""
+
+#: ../admin/options.php:160
+msgid "Widget Area in Each Page?"
+msgstr ""
+
+#: ../admin/options.php:161
+msgid "Check if you want a widget area in each page"
+msgstr ""
+
+#: ../admin/options.php:170
+msgid "Menu"
+msgstr ""
+
+#: ../admin/options.php:174
+msgid "The options below only works if you don't have a custom menu as Main Menu (Appeareance > Menus > Theme Locations. WordPress 3+)."
+msgstr ""
+
+#: ../admin/options.php:178
+msgid "Exclude Pages"
+msgstr ""
+
+#: ../admin/options.php:179
+msgid "IDs of the pages you wish to exclude from menu, separated by commas. (e.g. 12,35,75)"
+msgstr ""
+
+#: ../admin/options.php:184
+msgid "Order By"
+msgstr ""
+
+#: ../admin/options.php:185
+msgid "The view order you wish to set for your menu."
+msgstr ""
+
+#: ../admin/options.php:190
+msgid "By ID"
+msgstr ""
+
+#: ../admin/options.php:191
+msgid "By Post Title"
+msgstr ""
+
+#: ../admin/options.php:192
+msgid "By Menu Order"
+msgstr ""
+
+#: ../admin/options.php:200
+msgid "Styling Options"
+msgstr ""
+
+#: ../admin/options.php:203
+msgid "Primary Color"
+msgstr ""
+
+#: ../admin/options.php:204
+msgid "The main color."
+msgstr ""
+
+#: ../admin/options.php:209
+msgid "Secondary Color"
+msgstr ""
+
+#: ../admin/options.php:210
+msgid "Contrast for the main color."
+msgstr ""
+
+#: ../admin/options.php:215
+msgid "Text Color"
+msgstr ""
+
+#: ../admin/options.php:216
+msgid "Color for paragraphs, inputs and textareas."
+msgstr ""
+
+#: ../admin/options.php:221
+msgid "Box Opacity"
+msgstr ""
+
+#: ../admin/options.php:222
+msgid "The percentage of box opacity (0 to 100)."
+msgstr ""
+
+#: ../admin/options.php:222
+msgid "Default value: 80"
+msgstr ""
+
+#: ../admin/options.php:228
+msgid "Featured Image as Background"
+msgstr ""
+
+#: ../admin/options.php:229
+msgid "If a page/post have a featured image, make it my Fullscreen Image Background."
+msgstr ""
+
+#: ../admin/options.php:234
+msgid "Standard Background"
+msgstr ""
+
+#: ../admin/options.php:235
+msgid "Select between Fullscreen Image Background or Pattern"
+msgstr ""
+
+#: ../admin/options.php:239
+#: ../admin/options.php:243
+msgid "Fullscreen Image Background"
+msgstr ""
+
+#: ../admin/options.php:240
+msgid "Pattern"
+msgstr ""
+
+#: ../admin/options.php:247
+msgid "Pattern Background"
+msgstr ""
+
+#: ../admin/options.php:251
+msgid "prettyPhoto Theme"
+msgstr ""
+
+#: ../admin/options.php:257
+msgid "Default"
+msgstr ""
+
+#: ../admin/options.php:258
+msgid "Light Rounded"
+msgstr ""
+
+#: ../admin/options.php:259
+msgid "Light Square"
+msgstr ""
+
+#: ../admin/options.php:260
+msgid "Dark Rounded"
+msgstr ""
+
+#: ../admin/options.php:261
+msgid "Dark Square"
+msgstr ""
+
+#: ../admin/options.php:262
+msgid "Facebook"
+msgstr ""
+
+#: ../admin/options.php:268
+msgid "Google Fonts"
+msgstr ""
+
+#: ../admin/options.php:271
+msgid "Google Font API Link"
+msgstr ""
+
+#: ../admin/options.php:272
+msgid "Copy your font link from <a href=\"http://www.google.com/webfonts\" target=\"_blank\">google.com/webfonts</a>. (e.g. &lt;link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>)"
+msgstr ""
+
+#: ../admin/options.php:277
+msgid "Google Font CSS Keyword"
+msgstr ""
+
+#: ../admin/options.php:278
+msgid "The Font Family CSS keyword. E.g. If google says your Integrate CSS code is \"font-family: \"Open Sans Condensed\", sans-serif;\", paste the \"Open Sans Condensed\" keyword (without quotes)."
+msgstr ""
+
+#: ../admin/options.php:283
+msgid "Text Transform"
+msgstr ""
+
+#: ../admin/options.php:288
+#: ../admin/options.php:383
+msgid "None"
+msgstr ""
+
+#: ../admin/options.php:289
+msgid "Capitalize"
+msgstr ""
+
+#: ../admin/options.php:290
+msgid "Lowercase"
+msgstr ""
+
+#: ../admin/options.php:291
+msgid "Uppercase"
+msgstr ""
+
+#: ../admin/options.php:298
+msgid "Video Background"
+msgstr ""
+
+#: ../admin/options.php:301
+msgid "YouTube Video URL"
+msgstr ""
+
+#: ../admin/options.php:302
+msgid "Enter de FULL URL. (e.g. http://www.youtube.com/watch?v=c5x4V1s1Zao)"
+msgstr ""
+
+#: ../admin/options.php:309
+msgid "Slider Background"
+msgstr ""
+
+#: ../admin/options.php:313
+msgid "Need a tool to convert your MP3 to OGG? Take a look at <a href=\"http://media.io/\" target=\"_blank\">media.io</a>"
+msgstr ""
+
+#: ../admin/options.php:317
+msgid "Music Background - MP3"
+msgstr ""
+
+#: ../admin/options.php:318
+#: ../admin/options.php:323
+msgid "Leave it blank you don't want any music background."
+msgstr ""
+
+#: ../admin/options.php:322
+msgid "Music Background - OGG/OGA"
+msgstr ""
+
+#: ../admin/options.php:327
+msgid "Autoplay Music"
+msgstr ""
+
+#: ../admin/options.php:328
+msgid "Determines whether music begins playing when page is loaded."
+msgstr ""
+
+#: ../admin/options.php:333
+msgid "Navigation Buttons"
+msgstr ""
+
+#: ../admin/options.php:334
+msgid "Check to show previous, next and play/pause buttons."
+msgstr ""
+
+#: ../admin/options.php:339
+msgid "Thumbnails"
+msgstr ""
+
+#: ../admin/options.php:340
+msgid "Check to show slide thumbnails."
+msgstr ""
+
+#: ../admin/options.php:345
+msgid "Thumbnails Size"
+msgstr ""
+
+#: ../admin/options.php:346
+msgid "In pixels. Default: 76"
+msgstr ""
+
+#: ../admin/options.php:352
+msgid "Captions"
+msgstr ""
+
+#: ../admin/options.php:353
+msgid "Check to show slide captions."
+msgstr ""
+
+#: ../admin/options.php:358
+msgid "Autoplay Slider"
+msgstr ""
+
+#: ../admin/options.php:359
+msgid "Determines whether slideshow begins playing when page is loaded."
+msgstr ""
+
+#: ../admin/options.php:364
+msgid "Random"
+msgstr ""
+
+#: ../admin/options.php:365
+msgid "Slides are shown in a random order."
+msgstr ""
+
+#: ../admin/options.php:370
+msgid "Slide Interval"
+msgstr ""
+
+#: ../admin/options.php:371
+msgid "Time between slide changes (in seconds)."
+msgstr ""
+
+#: ../admin/options.php:371
+msgid "Default value: 5.5"
+msgstr ""
+
+#: ../admin/options.php:377
+msgid "Transition Effect"
+msgstr ""
+
+#: ../admin/options.php:378
+msgid "Controls which effect is used to transition between slides."
+msgstr ""
+
+#: ../admin/options.php:384
+msgid "Fade"
+msgstr ""
+
+#: ../admin/options.php:385
+msgid "Slide Top"
+msgstr ""
+
+#: ../admin/options.php:386
+msgid "Slide Right"
+msgstr ""
+
+#: ../admin/options.php:387
+msgid "Slide Bottom"
+msgstr ""
+
+#: ../admin/options.php:388
+msgid "Slide Left"
+msgstr ""
+
+#: ../admin/options.php:389
+msgid "Carousel Right"
+msgstr ""
+
+#: ../admin/options.php:390
+msgid "Carousel Left"
+msgstr ""
+
+#: ../admin/options.php:394
+msgid "Transition Speed"
+msgstr ""
+
+#: ../admin/options.php:395
+msgid "Speed of transitions (in seconds)."
+msgstr ""
+
+#: ../admin/options.php:395
+msgid "Default value: 1.5"
+msgstr ""
+
+#: ../admin/options.php:401
+msgid "New Window"
+msgstr ""
+
+#: ../admin/options.php:402
+msgid "Slide links open in a new window/tab"
+msgstr ""
+
+#: ../admin/options.php:407
+msgid "Pause on Hover"
+msgstr ""
+
+#: ../admin/options.php:408
+msgid "Pauses slideshow while current image hovered over."
+msgstr ""
+
+#: ../admin/options.php:413
+msgid "Keyboard Navigation"
+msgstr ""
+
+#: ../admin/options.php:414
+msgid "Allows control via keyboard: "
+msgstr ""
+
+#: ../admin/options.php:414
+msgid "Spacebar"
+msgstr ""
+
+#: ../admin/options.php:414
+msgid " - Pause or play / "
+msgstr ""
+
+#: ../admin/options.php:414
+msgid "Right arrow or Up Arrow"
+msgstr ""
+
+#: ../admin/options.php:414
+msgid " - Next slide / "
+msgstr ""
+
+#: ../admin/options.php:414
+msgid "Left arrow or Down Arrow"
+msgstr ""
+
+#: ../admin/options.php:414
+msgid " - Previous slide"
+msgstr ""
+
+#: ../admin/options.php:419
+msgid "Image Protect"
+msgstr ""
+
+#: ../admin/options.php:420
+msgid "Disables right clicking and image dragging to dificult copy."
+msgstr ""
+
+#: ../admin/options.php:425
+msgid "Vertical Center"
+msgstr ""
+
+#: ../admin/options.php:426
+msgid "Centers image vertically. When turned off, the images resize/display from the top of the page."
+msgstr ""
+
+#: ../admin/options.php:431
+msgid "Horizontal Center"
+msgstr ""
+
+#: ../admin/options.php:432
+msgid "Centers image horizontally. When turned off, the images resize/display from the left of the page."
+msgstr ""
+
+#: ../admin/options.php:437
+msgid "Fit Portrait"
+msgstr ""
+
+#: ../admin/options.php:438
+msgid "Prevents the image from being cropped by locking it at 100% height."
+msgstr ""
+
+#: ../admin/options.php:443
+msgid "Fit Landscape"
+msgstr ""
+
+#: ../admin/options.php:444
+msgid "Prevents the image from being cropped by locking it at 100% width."
+msgstr ""
+
+#: ../admin/options.php:453
+msgid "Slides"
+msgstr ""
+
+#: ../admin/options.php:475
+msgid "Slide Image"
+msgstr ""
+
+#: ../admin/options.php:480
+msgid "Caption"
+msgstr ""
+
+#: ../admin/options.php:485
+msgid "Slide Link"
+msgstr ""
+
+#: ../admin/options.php:490
+msgid "No link"
+msgstr ""
+
+#: ../admin/options.php:491
+msgid "Link to a Post/Portfolio Item"
+msgstr ""
+
+#: ../admin/options.php:492
+msgid "Link to a Page"
+msgstr ""
+
+#: ../admin/options.php:493
+msgid "Link to a Category"
+msgstr ""
+
+#: ../admin/options.php:494
+#: ../admin/options.php:516
+msgid "Custom Link"
+msgstr ""
+
+#: ../admin/options.php:498
+msgid "Post/Portfolio Item"
+msgstr ""
+
+#: ../admin/options.php:499
+msgid "The post/portfolio item ID"
+msgstr ""
+
+#: ../admin/options.php:504
+msgid "Pages"
+msgstr ""
+
+#: ../admin/options.php:510
+msgid "Categories"
+msgstr ""
+
+#: ../admin/options.php:518
+msgid "Full URL (<strong>WITH</strong> \"http://\")"
+msgstr ""
+
+#: ../admin/options.php:528
+msgid "Galleries List Page"
+msgstr ""
+
+#: ../admin/options.php:531
+msgid "Slides Effects?"
+msgstr ""
+
+#: ../admin/options.php:532
+msgid "If you disable it the theme will show only the last picture, withour the slides effects"
+msgstr ""
+
+#: ../admin/options.php:537
+msgid "Show the latest N pictures"
+msgstr ""
+
+#: ../admin/options.php:538
+msgid "Default value: 5"
+msgstr ""
+
+#: ../admin/options.php:547
+msgid "Nivo Slider"
+msgstr ""
+
+#: ../admin/options.php:550
+msgid "Slider Height"
+msgstr ""
+
+#: ../admin/options.php:551
+msgid "Only for post/portfolio pages (in pixels). Default: 377"
+msgstr ""
+
+#: ../admin/options.php:557
+msgid "Effect"
+msgstr ""
+
+#: ../admin/options.php:582
+msgid "Slices"
+msgstr ""
+
+#: ../admin/options.php:583
+#: ../admin/options.php:590
+#: ../admin/options.php:597
+msgid "Default: 4"
+msgstr ""
+
+#: ../admin/options.php:589
+msgid "Box Columns"
+msgstr ""
+
+#: ../admin/options.php:596
+msgid "Box Rows"
+msgstr ""
+
+#: ../admin/options.php:603
+msgid "Animation Speed"
+msgstr ""
+
+#: ../admin/options.php:604
+msgid "Slide transition speed (seconds). Default: 0.5"
+msgstr ""
+
+#: ../admin/options.php:610
+msgid "Pause Time"
+msgstr ""
+
+#: ../admin/options.php:611
+msgid "How long each slide will show (seconds). Default:2.5"
+msgstr ""
+
+#: ../admin/options.php:621
+msgid "Gallery Page"
+msgstr ""
+
+#: ../admin/options.php:624
+msgid "Grayscale Effect?"
+msgstr ""
+
+#: ../admin/options.php:625
+msgid "If you uncheck it, the grayscale effect will be disabled from the pictures grid."
+msgstr ""
+
+#: ../admin/options.php:630
+msgid "Grid Columns"
+msgstr ""
+
+#: ../admin/options.php:631
+msgid "How much columns do you want in the pictures grid?"
+msgstr ""
+
+#: ../admin/options.php:649
+msgid "Gallery Custom Background"
+msgstr ""
+
+#: ../admin/options.php:650
+msgid "If you leave it blank, the theme will get your standard background (image or pattern)."
+msgstr ""
+
+#: ../admin/options.php:658
+msgid "Other Settings"
+msgstr ""
+
+#: ../admin/options.php:661
+msgid "Custom CSS"
+msgstr ""
+
+#: ../admin/options.php:662
+msgid "Add your CSS code easily."
+msgstr ""
+
+#: ../admin/options.php:666
+msgid "Tracking/JavaScript Code"
+msgstr ""
+
+#: ../admin/options.php:667
+msgid "Put your Google Analytics (or any other) and Custom Javascript/jQuery code here."
+msgstr ""
+
+#: ../admin/options.php:671
+msgid "Custom Login Image"
+msgstr ""
+
+#: ../admin/options.php:672
+msgid "Customize the image of you login screen. (Maximum Size: 310x145 pixels.)"
+msgstr ""
+
+#: ../functions/comments_list.php:12
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../functions/comments_list.php:22
+msgid "(Edit)"
+msgstr ""
+
+#: ../functions/galleries.php:7
+#: ../functions/galleries.php:21
+msgid "Galleries"
+msgstr ""
+
+#: ../functions/galleries.php:9
+msgid "Search Galleries"
+msgstr ""
+
+#: ../functions/galleries.php:10
+msgid "Popular Galleries"
+msgstr ""
+
+#: ../functions/galleries.php:11
+msgid "All Galleries"
+msgstr ""
+
+#: ../functions/galleries.php:12
+msgid "Parent Gallery"
+msgstr ""
+
+#: ../functions/galleries.php:13
+msgid "Parent Gallery:"
+msgstr ""
+
+#: ../functions/galleries.php:14
+msgid "Edit Gallery"
+msgstr ""
+
+#: ../functions/galleries.php:15
+msgid "Update Gallery"
+msgstr ""
+
+#: ../functions/galleries.php:16
+msgid "Add New Gallery"
+msgstr ""
+
+#: ../functions/galleries.php:17
+msgid "New Gallery Name"
+msgstr ""
+
+#: ../functions/galleries.php:18
+msgid "Separate galleries with commas"
+msgstr ""
+
+#: ../functions/galleries.php:19
+msgid "Add or remove galleries"
+msgstr ""
+
+#: ../functions/galleries.php:20
+msgid "Choose from the most used galleries"
+msgstr ""
+
+#: ../functions/galleries.php:49
+#: ../functions/galleries.php:60
+msgid "Pictures"
+msgstr ""
+
+#: ../functions/galleries.php:50
+msgid "Picture"
+msgstr ""
+
+#: ../functions/galleries.php:51
+#: ../functions/portfolio.php:49
+msgid "Add New"
+msgstr ""
+
+#: ../functions/galleries.php:52
+msgid "Add New Picture"
+msgstr ""
+
+#: ../functions/galleries.php:53
+msgid "Edit Picture"
+msgstr ""
+
+#: ../functions/galleries.php:54
+msgid "New Picture"
+msgstr ""
+
+#: ../functions/galleries.php:55
+msgid "View Picture"
+msgstr ""
+
+#: ../functions/galleries.php:56
+msgid "Search Pictures"
+msgstr ""
+
+#: ../functions/galleries.php:57
+msgid "No pictures found"
+msgstr ""
+
+#: ../functions/galleries.php:58
+msgid "No pictures found in Trash"
+msgstr ""
+
+#: ../functions/galleries.php:59
+msgid "Parent Picture:"
+msgstr ""
+
+#: ../functions/general.php:115
+msgid "Main Menu"
+msgstr ""
+
+#: ../functions/meta-box.php:106
+#: ../functions/meta-box.php:347
+msgid "Delete this image"
+msgstr ""
+
+#: ../functions/meta-box.php:106
+#: ../functions/meta-box.php:304
+#: ../functions/meta-box.php:347
+msgid "Delete"
+msgstr ""
+
+#: ../functions/meta-box.php:300
+msgid "Uploaded files"
+msgstr ""
+
+#: ../functions/meta-box.php:310
+msgid "Upload new files"
+msgstr ""
+
+#: ../functions/meta-box.php:313
+msgid "Add more file"
+msgstr ""
+
+#: ../functions/meta-box.php:354
+msgid "Add more images"
+msgstr ""
+
+#: ../functions/meta-box.php:361
+msgid "Select a color"
+msgstr ""
+
+#: ../functions/portfolio.php:9
+#: ../functions/portfolio.php:23
+msgid "Skills"
+msgstr ""
+
+#: ../functions/portfolio.php:10
+msgid "Skill"
+msgstr ""
+
+#: ../functions/portfolio.php:11
+msgid "Search Skills"
+msgstr ""
+
+#: ../functions/portfolio.php:12
+msgid "Popular Skills"
+msgstr ""
+
+#: ../functions/portfolio.php:13
+msgid "All Skills"
+msgstr ""
+
+#: ../functions/portfolio.php:14
+msgid "Parent Skill"
+msgstr ""
+
+#: ../functions/portfolio.php:15
+msgid "Parent Skill:"
+msgstr ""
+
+#: ../functions/portfolio.php:16
+msgid "Edit Skill"
+msgstr ""
+
+#: ../functions/portfolio.php:17
+msgid "Update Skill"
+msgstr ""
+
+#: ../functions/portfolio.php:18
+msgid "Add New Skill"
+msgstr ""
+
+#: ../functions/portfolio.php:19
+msgid "New Skill Name"
+msgstr ""
+
+#: ../functions/portfolio.php:20
+msgid "Separate skills with commas"
+msgstr ""
+
+#: ../functions/portfolio.php:21
+msgid "Add or remove skills"
+msgstr ""
+
+#: ../functions/portfolio.php:22
+msgid "Choose from the most used skills"
+msgstr ""
+
+#: ../functions/portfolio.php:47
+#: ../functions/portfolio.php:58
+msgid "Portfolio Items"
+msgstr ""
+
+#: ../functions/portfolio.php:48
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../functions/portfolio.php:50
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: ../functions/portfolio.php:51
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: ../functions/portfolio.php:52
+msgid "New Portfolio Item"
+msgstr ""
+
+#: ../functions/portfolio.php:53
+msgid "View Portfolio Item"
+msgstr ""
+
+#: ../functions/portfolio.php:54
+msgid "Search Portfolio Items"
+msgstr ""
+
+#: ../functions/portfolio.php:55
+msgid "No portfolio items found"
+msgstr ""
+
+#: ../functions/portfolio.php:56
+msgid "No portfolio items found in Trash"
+msgstr ""
+
+#: ../functions/portfolio.php:57
+msgid "Parent Portfolio Item:"
+msgstr ""
+
+#: ../functions/portfolio.php:171
+#: ../functions/portfolio.php:178
+msgid "Featured Content"
+msgstr ""
+
+#: ../functions/portfolio.php:182
+msgid "Lightbox - Featured Image"
+msgstr ""
+
+#: ../functions/portfolio.php:183
+msgid "Lightbox - YouTube"
+msgstr ""
+
+#: ../functions/portfolio.php:184
+msgid "Lightbox - Vimeo"
+msgstr ""
+
+#: ../functions/portfolio.php:185
+msgid "Lightbox - QuickTime"
+msgstr ""
+
+#: ../functions/portfolio.php:186
+msgid "Lightbox - Flash"
+msgstr ""
+
+#: ../functions/portfolio.php:187
+msgid "Lightbox - HTML"
+msgstr ""
+
+#: ../functions/portfolio.php:188
+msgid "Embedded - Audio"
+msgstr ""
+
+#: ../functions/portfolio.php:189
+msgid "Embedded - Video"
+msgstr ""
+
+#: ../functions/portfolio.php:190
+msgid "Embedded - HTML"
+msgstr ""
+
+#: ../functions/portfolio.php:191
+msgid "Image Slider"
+msgstr ""
+
+#: ../functions/portfolio.php:197
+msgid "YouTube"
+msgstr ""
+
+#: ../functions/portfolio.php:198
+msgid "Put the FULL video url (e.g. http://www.youtube.com/watch?v=E_a2P6uc9Nk)"
+msgstr ""
+
+#: ../functions/portfolio.php:205
+msgid "Vimeo"
+msgstr ""
+
+#: ../functions/portfolio.php:206
+msgid "Put the FULL video url (e.g. http://vimeo.com/24900455)"
+msgstr ""
+
+#: ../functions/portfolio.php:213
+msgid "QuickTime Movie"
+msgstr ""
+
+#: ../functions/portfolio.php:214
+#: ../functions/portfolio.php:222
+msgid "Upload your file and then type the width and height of your file."
+msgstr ""
+
+#: ../functions/portfolio.php:221
+msgid "Flash Animation"
+msgstr ""
+
+#: ../functions/portfolio.php:229
+msgid "HTML"
+msgstr ""
+
+#: ../functions/portfolio.php:230
+msgid "Here you can put any HTML stuff, like text or embedded videos."
+msgstr ""
+
+#: ../functions/portfolio.php:237
+msgid "Width"
+msgstr ""
+
+#: ../functions/portfolio.php:238
+msgid "The content width."
+msgstr ""
+
+#: ../functions/portfolio.php:245
+#: ../functions/single-meta.php:259
+msgid "Height"
+msgstr ""
+
+#: ../functions/portfolio.php:246
+msgid "The content height."
+msgstr ""
+
+#: ../functions/portfolio.php:253
+#: ../functions/single-meta.php:286
+msgid "MP3"
+msgstr ""
+
+#: ../functions/portfolio.php:254
+#: ../functions/single-meta.php:287
+msgid "Don't forget to upload a .OGG/.OGA file too, so your audio will work in all main browsers."
+msgstr ""
+
+#: ../functions/portfolio.php:261
+#: ../functions/single-meta.php:294
+msgid "OGG/OGA"
+msgstr ""
+
+#: ../functions/portfolio.php:262
+#: ../functions/portfolio.php:278
+#: ../functions/single-meta.php:295
+msgid "Need a tool to convert your MP3 to OGG? Take a look at <a href=\\\"http://media.io/\\\" target=\\\"_blank\\\">media.io</a>."
+msgstr ""
+
+#: ../functions/portfolio.php:269
+#: ../functions/single-meta.php:235
+msgid "M4V"
+msgstr ""
+
+#: ../functions/portfolio.php:270
+#: ../functions/single-meta.php:236
+msgid "Don't forget to upload a .OGV file too, so your video will work in all main browsers."
+msgstr ""
+
+#: ../functions/portfolio.php:277
+#: ../functions/single-meta.php:243
+msgid "OGV"
+msgstr ""
+
+#: ../functions/portfolio.php:285
+#: ../functions/single-meta.php:251
+msgid "Poster"
+msgstr ""
+
+#: ../functions/portfolio.php:286
+#: ../functions/single-meta.php:252
+msgid "Upload a poster for your video/html."
+msgstr ""
+
+#: ../functions/portfolio.php:293
+#: ../functions/single-meta.php:89
+msgid "Image #1"
+msgstr ""
+
+#: ../functions/portfolio.php:300
+#: ../functions/single-meta.php:96
+msgid "Image #2"
+msgstr ""
+
+#: ../functions/portfolio.php:307
+#: ../functions/single-meta.php:103
+msgid "Image #3"
+msgstr ""
+
+#: ../functions/portfolio.php:314
+#: ../functions/single-meta.php:110
+msgid "Image #4"
+msgstr ""
+
+#: ../functions/portfolio.php:321
+#: ../functions/single-meta.php:117
+msgid "Image #5"
+msgstr ""
+
+#: ../functions/portfolio.php:328
+#: ../functions/single-meta.php:124
+msgid "Image #6"
+msgstr ""
+
+#: ../functions/portfolio.php:335
+#: ../functions/single-meta.php:131
+msgid "Image #7"
+msgstr ""
+
+#: ../functions/portfolio.php:342
+#: ../functions/single-meta.php:138
+msgid "Image #8"
+msgstr ""
+
+#: ../functions/portfolio.php:349
+#: ../functions/single-meta.php:145
+msgid "Image #9"
+msgstr ""
+
+#: ../functions/portfolio.php:356
+#: ../functions/single-meta.php:152
+msgid "Image #10"
+msgstr ""
+
+#: ../functions/single-meta.php:82
+msgid "Image Gallery"
+msgstr ""
+
+#: ../functions/single-meta.php:163
+msgid "Link"
+msgstr ""
+
+#: ../functions/single-meta.php:170
+msgid "URL"
+msgstr ""
+
+#: ../functions/single-meta.php:172
+msgid "Put your FULL link URL (e.g. http://google.com/)"
+msgstr ""
+
+#: ../functions/single-meta.php:182
+#: ../functions/single-meta.php:189
+msgid "Quote"
+msgstr ""
+
+#: ../functions/single-meta.php:191
+msgid "Put your quote here."
+msgstr ""
+
+#: ../functions/single-meta.php:197
+msgid "Quote Author"
+msgstr ""
+
+#: ../functions/single-meta.php:199
+msgid "The quote author name. You can leave it blank if you want."
+msgstr ""
+
+#: ../functions/single-meta.php:209
+#: ../functions/single-meta.php:216
+msgid "Chat"
+msgstr ""
+
+#: ../functions/single-meta.php:218
+msgid "Put your chat text here."
+msgstr ""
+
+#: ../functions/single-meta.php:228
+msgid "Video"
+msgstr ""
+
+#: ../functions/single-meta.php:244
+msgid "Don't forget to upload a .M4V file too, so your video will work in all main browsers."
+msgstr ""
+
+#: ../functions/single-meta.php:260
+msgid "The video height."
+msgstr ""
+
+#: ../functions/single-meta.php:267
+msgid "Embedded Video"
+msgstr ""
+
+#: ../functions/single-meta.php:268
+msgid "Put here your embedded video HTML code. If you fill this textarea the fields above will be overwritten."
+msgstr ""
+
+#: ../functions/single-meta.php:279
+msgid "Audio"
+msgstr ""
+
+#: ../functions/snippets_n_plugins.php:48
+msgid "YouTube video ID not found. Please double-check your URL."
+msgstr ""
+
+#: ../functions/widget-flickr.php:9
+msgid "Theme - Flickr"
+msgstr ""
+
+#: ../functions/widget-flickr.php:54
+#: ../functions/widget-social_icons.php:161
+msgid "Widget Title"
+msgstr ""
+
+#: ../functions/widget-flickr.php:60
+msgid "To get your Flickr ID go to <a href=\"http://idgettr.com/\" target=\"_blank\">http://idgettr.com/</a>."
+msgstr ""
+
+#: ../functions/widget-flickr.php:63
+msgid "Number of thumbnails to display:"
+msgstr ""
+
+#: ../functions/widget-social_icons.php:11
+msgid "Theme - Social Icons"
+msgstr ""
+
+#: ../functions/widget-social_icons.php:157
+msgid "Social Icons"
+msgstr ""
+
+#: ../functions/widget-social_icons.php:159
+msgid "Please, enter the FULL URL."
+msgstr ""
+
+#: ../functions/widget-social_icons.php:181
+msgid "Email (e.g. johndoe@gmail.com)"
+msgstr ""
+
+#: ../functions/widget-social_icons.php:246
+msgid "Skype (Only Username)"
+msgstr ""
+
+#: ../functions/widget-twitter.php:34
+msgid "Loading tweets..."
+msgstr ""
+
+#: ../functions/widget-twitter.php:61
+msgid "Title"
+msgstr ""
+
+#: ../functions/widget-twitter.php:67
+msgid "Username"
+msgstr ""
+
+#: ../functions/widget-twitter.php:73
+msgid "Number of tweets to display"
+msgstr ""
+
+#: ../functions/widget_areas.php:6
+msgid "Widgets that will appear in every page/post/portfolio"
+msgstr ""
+
+#: ../functions/widget_areas.php:15
+#: ../functions/widget_areas.php:24
+msgid "Widgets that will appear in every page"
+msgstr ""
+
+#: ../functions/widget_areas.php:40
+msgid "Widgets that will appear in footer first column."
+msgstr ""
+
+#: ../functions/widget_areas.php:51
+msgid "Widgets that will appear in footer second column."
+msgstr ""
+
+#: ../functions/widget_areas.php:62
+msgid "Widgets that will appear in footer third column."
+msgstr ""
+
+#: ../functions/widget_areas.php:73
+msgid "Widgets that will appear in footer fourth column."
+msgstr ""
+
+#: ../functions/widget_areas.php:94
+#, php-format
+msgid "Widgets that will appear in the \"%s\" category."
+msgstr ""
+
+#: ../functions/widget_areas.php:116
+#, php-format
+msgid "Widgets that will appear in the \"%s\" page."
+msgstr ""
+
+#: ../includes/loop-galleries-1col.php:104
+#: ../includes/loop-galleries-2cols.php:102
+#: ../includes/loop-galleries-3cols.php:102
+#: ../includes/loop-galleries-4cols.php:102
+msgid "View"
+msgstr ""
+
+#: ../includes/loop-portfolio-1col.php:21
+#: ../includes/loop-portfolio-2cols.php:21
+#: ../includes/loop-portfolio-3cols.php:21
+#: ../includes/loop-portfolio-4cols.php:21
+msgid "All"
+msgstr ""
+
+#: ../includes/loop-portfolio-1col.php:369
+#: ../includes/loop-portfolio-2cols.php:344
+#: ../includes/loop-portfolio-3cols.php:330
+#: ../includes/loop-portfolio-4cols.php:330
+#: ../includes/loop.php:369
+msgid "Read More"
+msgstr ""
+
+#: ../includes/loop-single.php:54
+#: ../includes/loop-single.php:70
+#: ../includes/loop-single.php:97
+#: ../includes/loop-single.php:148
+#: ../includes/loop-single.php:164
+#: ../includes/loop-single.php:188
+#: ../includes/loop-single.php:203
+#: ../includes/loop-single.php:217
+#: ../includes/loop-single.php:256
+#: ../includes/loop-single.php:312
+#: ../includes/loop-single.php:346
+#: ../includes/loop.php:54
+#: ../includes/loop.php:72
+#: ../includes/loop.php:101
+#: ../includes/loop.php:154
+#: ../includes/loop.php:172
+#: ../includes/loop.php:198
+#: ../includes/loop.php:215
+#: ../includes/loop.php:231
+#: ../includes/loop.php:270
+#: ../includes/loop.php:328
+#: ../includes/loop.php:364
+msgid "By"
+msgstr ""
+
+#: ../includes/loop-single.php:55
+#: ../includes/loop-single.php:71
+#: ../includes/loop-single.php:98
+#: ../includes/loop-single.php:149
+#: ../includes/loop-single.php:165
+#: ../includes/loop-single.php:189
+#: ../includes/loop-single.php:204
+#: ../includes/loop-single.php:218
+#: ../includes/loop-single.php:257
+#: ../includes/loop-single.php:313
+#: ../includes/loop-single.php:347
+#: ../includes/loop.php:55
+#: ../includes/loop.php:73
+#: ../includes/loop.php:102
+#: ../includes/loop.php:155
+#: ../includes/loop.php:173
+#: ../includes/loop.php:199
+#: ../includes/loop.php:216
+#: ../includes/loop.php:232
+#: ../includes/loop.php:271
+#: ../includes/loop.php:329
+#: ../includes/loop.php:365
+msgid "In"
+msgstr ""
+
+#: ../includes/loop-single.php:56
+#: ../includes/loop-single.php:72
+#: ../includes/loop-single.php:99
+#: ../includes/loop-single.php:150
+#: ../includes/loop-single.php:166
+#: ../includes/loop-single.php:190
+#: ../includes/loop-single.php:205
+#: ../includes/loop-single.php:219
+#: ../includes/loop-single.php:258
+#: ../includes/loop-single.php:314
+#: ../includes/loop-single.php:348
+#: ../includes/loop.php:56
+#: ../includes/loop.php:74
+#: ../includes/loop.php:103
+#: ../includes/loop.php:156
+#: ../includes/loop.php:174
+#: ../includes/loop.php:200
+#: ../includes/loop.php:217
+#: ../includes/loop.php:233
+#: ../includes/loop.php:272
+#: ../includes/loop.php:330
+#: ../includes/loop.php:366
+msgid "With"
+msgstr ""
+
+#: ../includes/loop-single.php:56
+#: ../includes/loop-single.php:72
+#: ../includes/loop-single.php:99
+#: ../includes/loop-single.php:150
+#: ../includes/loop-single.php:166
+#: ../includes/loop-single.php:190
+#: ../includes/loop-single.php:205
+#: ../includes/loop-single.php:219
+#: ../includes/loop-single.php:258
+#: ../includes/loop-single.php:314
+#: ../includes/loop-single.php:348
+#: ../includes/loop.php:56
+#: ../includes/loop.php:74
+#: ../includes/loop.php:103
+#: ../includes/loop.php:156
+#: ../includes/loop.php:174
+#: ../includes/loop.php:200
+#: ../includes/loop.php:217
+#: ../includes/loop.php:233
+#: ../includes/loop.php:272
+#: ../includes/loop.php:330
+#: ../includes/loop.php:366
+msgid "no comments yet"
+msgstr ""
+
+#: ../includes/loop-single.php:56
+#: ../includes/loop-single.php:72
+#: ../includes/loop-single.php:99
+#: ../includes/loop-single.php:150
+#: ../includes/loop-single.php:166
+#: ../includes/loop-single.php:190
+#: ../includes/loop-single.php:205
+#: ../includes/loop-single.php:219
+#: ../includes/loop-single.php:258
+#: ../includes/loop-single.php:314
+#: ../includes/loop-single.php:348
+#: ../includes/loop.php:56
+#: ../includes/loop.php:74
+#: ../includes/loop.php:103
+#: ../includes/loop.php:156
+#: ../includes/loop.php:174
+#: ../includes/loop.php:200
+#: ../includes/loop.php:217
+#: ../includes/loop.php:233
+#: ../includes/loop.php:272
+#: ../includes/loop.php:330
+#: ../includes/loop.php:366
+msgid "1 comment"
+msgstr ""
+
+#: ../includes/loop-single.php:56
+#: ../includes/loop-single.php:72
+#: ../includes/loop-single.php:99
+#: ../includes/loop-single.php:150
+#: ../includes/loop-single.php:166
+#: ../includes/loop-single.php:190
+#: ../includes/loop-single.php:205
+#: ../includes/loop-single.php:219
+#: ../includes/loop-single.php:258
+#: ../includes/loop-single.php:314
+#: ../includes/loop-single.php:348
+#: ../includes/loop.php:56
+#: ../includes/loop.php:74
+#: ../includes/loop.php:103
+#: ../includes/loop.php:156
+#: ../includes/loop.php:174
+#: ../includes/loop.php:200
+#: ../includes/loop.php:217
+#: ../includes/loop.php:233
+#: ../includes/loop.php:272
+#: ../includes/loop.php:330
+#: ../includes/loop.php:366
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../includes/loop-single.php:202
+#: ../includes/loop.php:214
+msgid "at"
+msgstr ""
+
+#: ../includes/loop-single.php:355
+#: ../includes/loop.php:60
+#: ../includes/loop.php:77
+#: ../includes/loop.php:107
+#: ../includes/loop.php:159
+#: ../includes/loop.php:177
+#: ../includes/loop.php:203
+#: ../includes/loop.php:219
+#: ../includes/loop.php:236
+#: ../includes/loop.php:275
+#: ../includes/loop.php:333
+#: ../includes/loop.php:370
+msgid "Tags:"
+msgstr ""
+
+#: ../includes/loop.php:376
+msgid "&lt; Older Entries"
+msgstr ""
+
+#: ../includes/loop.php:377
+msgid "Newer Entries &gt;"
+msgstr ""
+

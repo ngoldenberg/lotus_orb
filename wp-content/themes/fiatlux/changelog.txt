@@ -1,0 +1,33 @@
+----------------------
+  FIAT LUX Changelog
+----------------------
+
+
+11 Septembet, 2012 - v1.3
+  - Changed YouTube video background for Self-Hosted video background.
+
+14 June, 2012 - v1.2.1
+  - Update to WordPress 3.4 (admin/options.php, admin/options-framework.php).
+
+14 May, 2012 - v1.2
+  - Changed jQuery Tubular plugin to jQuery mb.YTPlayer for YouTube video background.
+
+13 December, 2011 - v1.1.1
+  - Fixed enqueue scripts on Twitter and Flickr widgets for WordPress 3.3 (functions/widget-flickr.php, functions/widget-twitter.php).
+
+16 August, 2011 - Version 1.1
+  - Added lightbox to portfolio/blog post galleries.
+
+15 August, 2011 - Version 1.0.3
+  - Fixed social icons style bug (style.css).
+  - Fixed slider play/pause bug (js/libs/supersized.shutter.js.php).
+  - Fixed pictures grid bug (includes/loop-pictures.php).
+
+13 August, 2011 - Version 1.0.2
+  - Changed TimThumb max file size from 1.5MB to 10MB (includes/timthumb.php).
+
+12 August, 2011 - Version 1.0.1
+  - Fixed widget areas bug (functions/widget_areas.php).	
+
+10 August, 2011 - v1.0
+  - First Release.

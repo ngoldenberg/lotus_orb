@@ -1,0 +1,111 @@
+.jp-interface {
+	background: #000;
+	border: 2px solid #fff;
+	float: left;
+}
+.jp-video .jp-interface {
+}
+.jp-controls,
+.jp-controls li,
+.jp-controls a,
+.jp-controls img {
+	float: left;
+}
+.jp-controls {
+	margin: 0;
+}
+.jp-play,
+.jp-pause {
+	width: 32px;
+}
+.jp-mute,
+.jp-unmute {
+	width: 32px;
+}
+.jp-controls.play {
+	border-right: 2px solid #fff;
+}
+.jp-controls.volume {
+	float: right;
+	border-left: 2px solid #fff;
+}
+.jp-progress {
+	float: left;
+	margin: 10px 6px;
+}
+.jp-controls,
+.jp-volume-bar {
+	height: 30px;
+}
+.jp-seek-bar {
+	width: 100% !important;
+}
+.jp-seek-bar,
+.jp-volume-bar {
+	background: #000;
+	border: 1px solid #fff;
+	cursor: pointer;
+	float: left;
+	height: 8px;
+}
+.ml_portfolio.ml_post_content .jp-interface,
+.ml_post_content.video .jp-interface,
+.ml_post_content.audio .jp-interface {
+	width: 671px;
+}
+.ml_portfolio.ml_post_content .jp-interface .jp-progress,
+.ml_post_content.video .jp-interface .jp-progress,
+.ml_post_content.audio .jp-interface .jp-progress {
+	width: 517px;
+}
+.ml_portfolio.ml_one_full .jp-player-all {
+	float: left;
+	width: 426px;
+}
+.ml_portfolio.ml_one_full .jp-interface {
+	width: 456px;
+}
+.ml_portfolio.ml_one_full .jp-interface .jp-progress {
+	width: 302px;
+}
+.ml_portfolio.ml_one_half .jp-interface {
+	width: 416px;
+}
+.ml_portfolio.ml_one_half .jp-interface .jp-progress {
+	width: 262px;
+}
+.ml_portfolio.ml_one_third .jp-interface {
+	width: 246px;
+}
+.ml_portfolio.ml_one_third .jp-interface .jp-progress {
+	width: 197px;
+}
+.ml_portfolio.ml_one_fourth .jp-interface {
+	width: 161px;
+}
+.ml_portfolio.ml_one_fourth .jp-interface .jp-progress {
+	width: 112px;
+}
+.jp-play-bar,
+.jp-volume-bar-value {
+	background: #fff;
+	height: 6px;
+	margin: 1px;
+}
+.jp-volume-bar {
+	float: right;
+	width: 64px;
+	margin: 10px 6px 10px 0;
+}
+.jp-jplayer-video {
+	background: #000 url(../images/ml_icon_video.gif) no-repeat center center;
+	border: 2px solid #fff;
+	border-bottom: 0;
+}
+.ml_portfolio.ml_one_full .jp-jplayer-video {
+	float: left;
+	width: 456px;
+}
+.ml_portfolio.ml_one_half .jp-jplayer-video {
+	width: 416px;
+}

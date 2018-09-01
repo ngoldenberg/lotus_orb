@@ -1,0 +1,4 @@
+[22-Jun-2015 07:01:25 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9288 bytes) in /home/marmoles/public_html/wp-includes/class-wp-image-editor-gd.php on line 309
+[22-Jun-2015 07:01:40 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9288 bytes) in /home/marmoles/public_html/wp-includes/class-wp-image-editor-gd.php on line 309
+[22-Jul-2015 01:37:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 9288 bytes) in /home/marmoles/public_html/wp-includes/class-wp-image-editor-gd.php on line 311
+[29-Aug-2015 03:56:54 UTC] XML Sitemap Feeds settings cleared before uninstall.

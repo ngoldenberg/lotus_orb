@@ -1,0 +1,11 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^programa\.marmolestravertino\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.programa\.marmolestravertino\.com\.ar$
+RewriteRule ^/?$ "http\:\/\/delain\.heroku\.com" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^programa\.canterarincon\.com\.ar$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.programa\.canterarincon\.com\.ar$
+RewriteRule ^/?$ "http\:\/\/delain\.heroku\.com" [R=301,L]
+
