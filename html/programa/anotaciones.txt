@@ -1,2 +1,0 @@
-- recomiendo no usar el "atras" del navegador, si no mas bien, moverse con links
-- es posible borrar solo el ULTIMO bloque ingresado
