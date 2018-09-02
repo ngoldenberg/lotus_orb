@@ -24,7 +24,7 @@ docker-compose -p cr stop && \
     docker-compose -p cr rm -y
 ```
 
-### Manual docker setup
+## Manual docker setup
 
 #### Docker network
 ```bash
