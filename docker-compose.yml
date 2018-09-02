@@ -1,28 +1,26 @@
 version: '3'
 
 services:
+  mysql:
+    image: "mysql:5.6"
+    env_file:
+    - ./config/mysql.env
+    volumes:
+    - ./data:/var/lib/mysql
+    ports:
+    - 3306:3306
+#    expose:
+#    - 3306
+    restart: always
+
   app:
     image: "romeoz/docker-nginx-php:5.6"
     env_file:
       - ./config/app.env
     volumes:
       - ./html:/var/www/app/
-#    ports:
-#      - "8080:80"
     expose:
-      - "80"
-    restart: always
-
-  mysql:
-    image: "mysql:5.6"
-    env_file:
-    - ./config/mysql.env
-    volumes:
-      - ./data:/var/lib/mysql
-#    ports:
-#      - "8081:3306"
-    expose:
-      - "3306"
+      - 80
     restart: always
 
   nginx:
@@ -32,14 +30,3 @@ services:
     ports:
     - 80:80
     - 443:443
-
-
-#  proxy:
-#    image: jwilder/nginx-proxy
-#    volumes:
-#      - /var/run/docker.sock:/tmp/docker.sock:ro
-#    ports:
-#      - "80:80"
-#    restart: always
-#
-#
