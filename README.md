@@ -102,6 +102,7 @@ Use [this](https://interconnectit.com/products/search-and-replace-for-wordpress-
 **Fix**: 
 _Run inside app container_ 
 ```bash
+docker exec -it cr_app_1 /bin/bash
 chown -R www-data:www-data ./
 chmod -R 755 ./
 ```
