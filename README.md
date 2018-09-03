@@ -4,19 +4,22 @@ _Multi-site deployment._
 
 ## Instructions
 
-#### Clone repos
-```bash
-./utils/clone-repos.sh
-```
+1. Clone repos:
+    ```bash
+    ./utils/clone-repos.sh
+    ```
 
-#### Create data directory 
-_Can skip if you already have a data dir._
-```bash
-mkdir data
-```
+2. Create data directory (_can skip if you already have a data dir_):
+    ```bash
+    mkdir data
+    ```
 
-#### Set envs 
-Check config files on `/config`. 
+3. Set envs: check config files on `/config`. 
+
+4. Run containers:
+    ```bash
+    docker-compose -p cr up -d
+    ```
 
 ## Docker compose deploy
 
@@ -37,8 +40,7 @@ docker-compose -p cr rm
 
 #### Stop & remove
 ```bash
-docker-compose -p cr stop && \
-    docker-compose -p cr rm -y
+docker-compose -p cr down
 ```
 
 ### Manual docker setup
