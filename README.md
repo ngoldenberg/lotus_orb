@@ -43,7 +43,7 @@ docker-compose -p cr rm
 docker-compose -p cr down
 ```
 
-### Manual docker setup
+## Manual docker setup
 
 #### Docker network
 ```bash
