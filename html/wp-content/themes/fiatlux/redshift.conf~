@@ -1,5 +1,0 @@
-[redshift]
-location-provider=manual
-[manual]
-lat=-34.623038
-lon=-58.466417

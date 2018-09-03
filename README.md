@@ -1,5 +1,22 @@
 Marmoles Travertino
 ===================
+_Multi-site deployment._
+
+## Instructions
+
+#### Clone repos
+```bash
+./utils/clone-repos.sh
+```
+
+#### Create data directory 
+_Can skip if you already have a data dir._
+```bash
+mkdir data
+```
+
+#### Set envs 
+Check config files on `/config`. 
 
 ## Docker compose deploy
 

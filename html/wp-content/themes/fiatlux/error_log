@@ -1,3 +1,0 @@
-[22-Jun-2015 09:46:16 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function get_header() in /home/marmoles/public_html/wp-content/themes/fiatlux/index.php on line 2
-[25-Aug-2015 04:13:36 America/Argentina/Buenos_Aires] PHP Fatal error:  Call to undefined function get_header() in /home/marmoles/public_html/wp-content/themes/fiatlux/index.php on line 2
-[06-Mar-2016 08:44:18 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/marmoles/public_html/wp-content/themes/fiatlux/index.php on line 2

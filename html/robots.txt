@@ -1,4 +1,0 @@
-User-Agent: *
-Disallow: 
-
-Sitemap: http://marmolestravertino.com.ar/sitemap.xml
