@@ -16,7 +16,11 @@ _Multi-site deployment._
 
 3. Set envs: check config files on `/config`. 
 
-4. Run containers:
+5. Add extra containers.
+
+6. Map containers on `nginx` conf.
+
+7. Run containers:
     ```bash
     docker-compose -p cr up -d
     ```
@@ -31,11 +35,6 @@ docker-compose -p cr up -d
 #### Stop
 ```bash
 docker-compose -p cr stop
-```
-
-#### Remove
-```bash
-docker-compose -p cr rm
 ```
 
 #### Stop & remove
@@ -74,6 +73,23 @@ docker run --name mysql -d -p 8081:3306 \
     --net wordpress \
     mysql:5.6
 ```
+
+## Nginx configuration
+
+#### Add new container to reverse proxy
+Add to `config/nginx/conf`:
+```smartyconfig
+  server {
+    listen {outside_port};
+    server_name {outside_web_url};
+
+    location / {
+      proxy_pass http://{container}:{container_port};
+    }
+  }
+```
+_This must be added inside `http { }` closure.
+
 
 ## Notes
 
