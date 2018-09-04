@@ -6,7 +6,7 @@ _Multi-site deployment._
 
 1. Clone repos:
     ```bash
-    ./utils/clone-repos.sh
+    ./utils/clone-repos.sh ssh
     ```
 
 2. Create data directory (_can skip if you already have a data dir_):
