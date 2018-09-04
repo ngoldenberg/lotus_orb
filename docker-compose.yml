@@ -23,6 +23,17 @@ services:
       - "8080:80"
     restart: always
 
+  app_m:
+    image: "romeoz/docker-nginx-php:5.6"
+    env_file:
+    - ./config/app_m.env
+    volumes:
+    - ./marmoles_travertino_m:/var/www/app/
+    ports:
+    - "8081:80"
+    restart: always
+
+
   nginx:
     image: nginx:latest
     volumes:
