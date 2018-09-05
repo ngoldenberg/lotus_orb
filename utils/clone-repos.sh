@@ -47,3 +47,15 @@ else
 fi
 
 echo "MarmolesTravertinoM repository up to date."
+
+echo "Cloning Faraday Blink site..."
+if [ ! -d upload_validation ]; then
+    git clone -b master --depth 1 "$PREFIX"ngoldenberg/faraday_blink.git faraday_blink
+else
+    echo "Faraday Blink was cloned already. Pulling latest updates..."
+    cd faraday_blink
+    git pull
+    cd ..
+fi
+
+echo "Faraday Blink repository up to date."

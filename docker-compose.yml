@@ -33,7 +33,13 @@ services:
     - "8081:80"
     restart: always
 
-
+  faraday_blink:
+    image: "nginx:1.15.3"
+    volumes:
+      - ./faraday_blink:/usr/share/nginx/html:ro
+    ports:
+      - "8082:80"
+    restart: always
   nginx:
     image: nginx:latest
     volumes:
