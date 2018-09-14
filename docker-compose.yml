@@ -45,9 +45,9 @@ services:
     env_file:
       - ./config/chain_reaction.env
     build:
-      context: ./app
+      context: ./chain-reaction
     volumes:
-    - /home/nik/Documents/projects/chain-reaction/public:/usr/share/nginx/html:ro
+    - /home/nik/Documents/projects/chain-reaction:/usr/share/nginx/html
     ports:
     - "8083:80"
     restart: always
