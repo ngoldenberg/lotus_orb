@@ -42,14 +42,14 @@ services:
     restart: always
 
   chain_reaction:
-    env_file:
-      - ./config/chain_reaction.env
+#    env_file:
+#      - ./config/chain_reaction.env
     build:
       context: ./chain-reaction
-    volumes:
-    - ./chain-reaction:/app
+#    volumes:
+#    - ./chain-reaction:/app
     ports:
-    - "8083:80"
+    - "8083:8080"
     restart: always
 
   nginx:

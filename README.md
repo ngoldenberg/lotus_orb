@@ -107,3 +107,12 @@ chown -R www-data:www-data ./
 chmod -R 755 ./
 ```
 
+#### Degub container
+* Commit debug image:
+    ```bash
+    docker commit {container_name} debug-image
+    ```
+* Run debug image:
+    ```bash
+    docker run -it debug-image /bin/bash
+    ```
