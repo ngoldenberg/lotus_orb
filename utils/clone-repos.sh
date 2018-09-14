@@ -33,7 +33,6 @@ else
     git pull
     cd ..
 fi
-
 echo "MarmolesTravertino repository up to date."
 
 echo "Cloning MarmolesTravertinoM wordpress mobile site..."
@@ -45,7 +44,6 @@ else
     git pull
     cd ..
 fi
-
 echo "MarmolesTravertinoM repository up to date."
 
 echo "Cloning Faraday Blink site..."
@@ -57,5 +55,17 @@ else
     git pull
     cd ..
 fi
-
 echo "Faraday Blink repository up to date."
+
+echo "Cloning Chain Reaction site..."
+if [ ! -d chain-reaction ]; then
+    git clone -b master --depth 1 git@gitlab.com:ngoldenberg/chain-reaction.git chain-reaction
+else
+    echo "Chain Reaction was cloned already. Pulling latest updates..."
+    cd chain-reaction
+    git pull
+    cd ..
+fi
+echo "Chain Reaction repository up to date."
+
+

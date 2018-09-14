@@ -40,6 +40,18 @@ services:
     ports:
       - "8082:80"
     restart: always
+
+  chain_reaction:
+    env_file:
+      - ./config/chain_reaction.env
+    build:
+      context: ./app
+    volumes:
+    - /home/nik/Documents/projects/chain-reaction/public:/usr/share/nginx/html:ro
+    ports:
+    - "8083:80"
+    restart: always
+
   nginx:
     image: nginx:latest
     volumes:
