@@ -42,8 +42,8 @@ services:
     restart: always
 
   chain_reaction:
-#    env_file:
-#      - ./config/chain_reaction.env
+    env_file:
+      - ./config/chain_reaction.env
     build:
       context: ./chain-reaction
 #    volumes:
