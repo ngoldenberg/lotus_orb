@@ -47,7 +47,7 @@ services:
     build:
       context: ./chain-reaction
     volumes:
-    - /home/nik/Documents/projects/chain-reaction:/usr/share/nginx/html
+    - ./chain-reaction:/usr/share/nginx/html
     ports:
     - "8083:80"
     restart: always
