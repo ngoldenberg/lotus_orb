@@ -47,7 +47,7 @@ services:
     build:
       context: ./chain-reaction
     volumes:
-    - ./chain-reaction:/usr/share/nginx/html
+    - ./chain-reaction:/app
     ports:
     - "8083:80"
     restart: always
